@@ -30,7 +30,7 @@
 ```js
 const maximus = {
   alias: "Maximus",
-  location: "Laghouat, Algeria",
+  location: "Aflou, Algeria",
   role: "Lead Developer & Information Systems Operator",
   community: "Ras El Hanout DZ",
   server: "2.27.234.85:27015",
