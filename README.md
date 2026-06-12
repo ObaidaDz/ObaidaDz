@@ -80,7 +80,7 @@ My work is not only code. I handle the full chain: Linux setup, Pterodactyl serv
 
 | Server | Address | Public Slots | Reserved Slots | Stack |
 | --- | --- | ---: | ---: | --- |
-| **☠ Ras El Hanout DZ \| Noise Isn't Power** | `connect 2.27.234.85:27015` | `20` | `10 VIP/Admin` | `CS2` `CounterStrikeSharp` `MariaDB` |
+| **💀 Ras El Hanout DZ \| Noise Isn't Power** | `connect 2.27.234.85:27015` | `20` | `10 VIP/Admin` | `CS2` `CounterStrikeSharp` `MariaDB` |
 
 <div align="center">
   <a href="https://www.gametracker.com/server_info/2.27.234.85:27015/">
