@@ -65,6 +65,33 @@ My work is not only code. I handle the full chain: Linux setup, Pterodactyl serv
 
 ---
 
+## Live CS2 Server
+
+<div align="center">
+  <a href="steam://connect/2.27.234.85:27015">
+    <img src="https://img.shields.io/badge/Join-2.27.234.85%3A27015-00FF88?style=for-the-badge&labelColor=0d1117&logo=steam&logoColor=white" alt="Join Ras El Hanout DZ" />
+  </a>
+  <a href="https://discord.gg/BFYt3YU8KG">
+    <img src="https://img.shields.io/badge/Community-Ras%20El%20Hanout%20DZ-5865F2?style=for-the-badge&labelColor=0d1117&logo=discord&logoColor=white" alt="Ras El Hanout DZ Discord" />
+  </a>
+</div>
+
+<br/>
+
+| Server | Address | Public Slots | Reserved Slots | Stack |
+| --- | --- | ---: | ---: | --- |
+| **☠ Ras El Hanout DZ \| Noise Isn't Power** | `connect 2.27.234.85:27015` | `20` | `10 VIP/Admin` | `CS2` `CounterStrikeSharp` `MariaDB` |
+
+<div align="center">
+  <a href="https://www.gametracker.com/server_info/2.27.234.85:27015/">
+    <img src="https://cache.gametracker.com/server_info/2.27.234.85:27015/b_560_95_1.png" alt="Ras El Hanout DZ live CS2 server status" />
+  </a>
+</div>
+
+The server is built around custom systems: VIP, skins, graffiti, admin tools, anti-cheat checks, faction/cartel gameplay, Discord alerts, and web-connected player features. I keep it public-facing but tuned like a private project, because real players notice every small delay, bad menu, missing permission, and broken config.
+
+---
+
 ## Tech Stack
 
 <table>
