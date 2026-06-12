@@ -4,14 +4,14 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2200&pause=800&color=00FF88&center=true&vCenter=true&width=820&lines=🇩🇿+CS2+Plugin+Engineer+from+Laghouat%2C+Algeria;Running+Ras+El+Hanout+DZ+—+join+2.27.234.85%3A27015;C%23+%7C+Java+%7C+JavaScript+%7C+PHP+%7C+Dart+%7C+HTML+%7C+CSS;CounterStrikeSharp+%2F+.NET+%2F+MariaDB+%2F+Linux;I+build+what+breaks+when+the+server+is+full;From+Minecraft+Spigot+to+CS2+enterprise+plugins)](https://github.com/ObaidaDz)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2200&pause=800&color=00FF88&center=true&vCenter=true&width=850&lines=🇩🇿+CS2+Plugin+Engineer+from+Aflou%2C+Laghouat%2C+Algeria;Running+Ras+El+Hanout+DZ+—+join+2.27.234.85%3A27015;C%23+%7C+Java+%7C+JavaScript+%7C+PHP+%7C+Dart+%7C+HTML+%7C+CSS;CounterStrikeSharp+%2F+.NET+%2F+MariaDB+%2F+Linux;I+build+what+breaks+when+the+server+is+full;From+Minecraft+Spigot+to+CS2+enterprise+plugins)](https://github.com/ObaidaDz)
 
 <br/>
 
 <a href="mailto:aouiff123@gmail.com"><img src="https://img.shields.io/badge/Gmail-aouiff123%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
 <a href="https://discord.gg/BFYt3YU8KG"><img src="https://img.shields.io/badge/Discord-Ras%20El%20Hanout%20DZ-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117"/></a>
 <a href="https://steamcommunity.com/id/MaximusRh/"><img src="https://img.shields.io/badge/Steam-MaximusRh-00adee?style=for-the-badge&logo=steam&logoColor=white&labelColor=0d1117"/></a>
-<img src="https://img.shields.io/badge/🇩🇿-Laghouat%2C%20Algeria-006233?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/🇩🇿-Aflou%2C%20Laghouat-006233?style=for-the-badge&labelColor=0d1117"/>
 
 <br/><br/>
 
@@ -29,7 +29,7 @@
 
 ### 👾 Maximus — ObaidaDz
 
-I'm a self-taught developer from **Laghouat, Algeria** 🇩🇿.
+I'm a self-taught developer from **Aflou, Laghouat, Algeria** 🇩🇿.
 I've been writing code since I was a teenager, starting
 with Minecraft server plugins in Java.
 
@@ -49,11 +49,19 @@ and JavaScript when the frontend needs work too.
 Not chasing a job. Just building real things that
 real people use every day.
 
+I like projects where the code has consequences:
+players notice the menu delay, admins notice the
+missing permission, and the database notices every
+bad migration. That pressure shaped how I build.
+Fast when it matters, careful when it can break
+trust, and always close enough to production to know
+what the system is really doing.
+
 <br/>
 
 ```yaml
 name:       Maximus (ObaidaDz)
-location:   Laghouat, Algeria 🇩🇿
+location:   Aflou, Laghouat, Algeria 🇩🇿
 languages:  [C#, Java, JS, PHP, Dart, Bash, SQL, HTML, CSS]
 cs2_server: 2.27.234.85:27015
 discord:    discord.gg/BFYt3YU8KG
@@ -481,7 +489,7 @@ Server:   2.27.234.85:27015
 
 | | |
 |---|---|
-| 🇩🇿 | From Laghouat, Algeria — a city in the Sahara Atlas mountains |
+| 🇩🇿 | From Aflou, Laghouat, Algeria — where I started building servers before I called it engineering |
 | 🎮 | Running a CS2 server since the game launched |
 | ⛏️ | Started coding in Java just to build Minecraft plugins |
 | 🌙 | Most productive at night — that's when the good code gets written |
@@ -494,69 +502,99 @@ Server:   2.27.234.85:27015
 
 ---
 
-<!-- ════════════════════════════════════════════════ GITHUB ACTIONS ═ -->
+<!-- ═══════════════════════════════════════════════ BUILD DNA ═ -->
 
-## ⚙️ GitHub Actions Setup
+## 🧠 How I Build
 
-<details>
-<summary><b>🐍 Auto-generate Contribution Snake (click to expand)</b></summary>
+| Principle | What it means in my projects |
+|---|---|
+| **Live-first engineering** | I build for real players, not perfect demos. A feature is not finished until it survives a full server. |
+| **Database before drama** | If the schema is wrong, the feature becomes painful later. I design persistence early. |
+| **Menus must be fast** | Players should not need a guide to use a command. If the flow is slow, it gets rewritten. |
+| **Shadow before punish** | Anti-cheat and risky automation should observe first, then enforce only when the signal is trusted. |
+| **Rollback is a feature** | Every serious server change needs backups, fallbacks, and a way back to stable. |
+| **Community feedback is telemetry** | Discord complaints, admin reports, and player habits tell me where the real bugs are. |
 
-Create `.github/workflows/snake.yml` in your profile repo:
+---
 
-```yaml
-name: Generate Snake
+## 🗺️ From Aflou To Production Servers
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+I am from **Aflou, Laghouat**. That matters to me because most of what I know came from building with what I had:
+late nights, a VPS, a server full of impatient players, and enough stubbornness to keep fixing the same problem until it stayed fixed.
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+Ras El Hanout DZ is not just a server name. It is the place where I test ideas under pressure:
+VIP permissions, skins, revive HUDs, cartel wars, reserved slots, anti-cheat checks, admin workflows, Discord reports, web panels,
+and all the small quality fixes that make people feel the server is cared for.
 
-</details>
+---
 
-<details>
-<summary><b>🔄 Auto-update README with latest GitHub stats (click to expand)</b></summary>
+## 🔭 Current Focus
 
 ```yaml
-name: Update Stats
+carteldz:
+  now:     stable gameplay core + EMPIRE live layer
+  next:    DOMINION shadow systems, skill trees, intel, better war HUDs
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+skins:
+  now:     weapon skins, gloves, knives, agents, stickers, charms, music kits
+  next:    smoother previews, richer catalog, better CT/T apply flow
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: update README with latest activity"
-          MAX_LINES: 10
+vip:
+  now:     permissions, credits, modules, online checks, runtime repair
+  next:    cleaner web purchase flow and stronger Discord/database sync
+
+security:
+  now:     AntiDLL, VeteranGatekeeper, private profile checks, admin review
+  next:    safer shadow queue and better evidence pipeline
+
+web:
+  now:     portfolio, bans/admin pages, skins lab, live server status
+  next:    cartel dashboard, player profiles, public season history
 ```
 
-</details>
+---
+
+## 🧱 Production Lessons
+
+| Problem | What I learned |
+|---|---|
+| CS2 updates break things silently | Always verify from outside the server, not only from console logs. |
+| Permissions can look correct in DB and still fail in-game | Runtime probes and reconcilers are worth having. |
+| Center messages can fight each other | HUDs need ownership, timing, and stable positions. |
+| Player lists and Steam queries are fragile | Keep server info direct and proxy only the smallest safe packet. |
+| Admin tools must be boring | In a live match, admins need clear commands, not fancy confusion. |
+| Players remember downtime | Stability beats showing off every time. |
+
+---
+
+## 🚧 What Is Coming Next
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Gameplay
+
+- Cartel skill trees and archetypes
+- Better cartel wars and cleaner war panels
+- Cartel intel reports and spy economy
+- Bounty history and public season archive
+- More advanced VIP rewards without unfair HP abuse
+
+</td>
+<td width="50%" valign="top">
+
+### Platform
+
+- Web dashboard for cartels, bans, skins and player profiles
+- OBS-ready live overlay for wars and match moments
+- Safer anti-cheat review queue
+- Cleaner GitHub/project documentation
+- More public plugins when they are stable enough
+
+</td>
+</tr>
+</table>
 
 ---
 
