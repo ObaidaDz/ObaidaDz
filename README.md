@@ -422,43 +422,6 @@ CS2 server   2.27.234.85:27015
 
 ---
 
-## 3D Contribution Graph
-
-<div align="center">
-
-[![3D Contributions](https://raw.githubusercontent.com/ObaidaDz/ObaidaDz/main/profile-3d-contrib/profile-night-green.svg)](https://github.com/ObaidaDz)
-
-</div>
-
-<details>
-<summary><b>How to set up the 3D graph</b></summary>
-
-```yaml
-# .github/workflows/profile-3d.yml
-name: GitHub-Profile-3D-Contrib
-on:
-  schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add -A && git commit -m "chore: update 3D graph" && git push
-```
-
-</details>
-
----
-
 ## Trophies
 
 <div align="center">
