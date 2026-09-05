@@ -3,16 +3,15 @@
 </p>
 
 <p>
-  <a href="#about">About me</a> &nbsp; / &nbsp;
-  <a href="#community">Ras El Hanout DZ</a> &nbsp; / &nbsp;
-  <a href="#projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#toolbox">Tools</a> &nbsp; / &nbsp;
-  <a href="#contact">Contact</a>
+  <a href="#im-obaida-most-people-call-me-maximus">About me</a> &nbsp; / &nbsp;
+  <a href="#ras-el-hanout-dz">Ras El Hanout DZ</a> &nbsp; / &nbsp;
+  <a href="#a-look-at-my-public-work">Projects</a> &nbsp; / &nbsp;
+  <a href="#the-tools-behind-the-work">Tools</a> &nbsp; / &nbsp;
+  <a href="#find-me">Contact</a>
 </p>
 
 <br>
 
-<a id="about"></a>
 <h2>I'm Obaida. Most people call me Maximus.</h2>
 
 <p>I'm a developer from <strong>Aflou, Laghouat, Algeria</strong>. I learned through my own projects, starting with Java and Minecraft plugins. I wanted to understand how a command, an event or a small change in the code could change what happened inside a game. That curiosity is still what keeps me interested.</p>
@@ -23,7 +22,6 @@
 
 <br>
 
-<a id="community"></a>
 <h2>Ras El Hanout DZ</h2>
 
 <p><strong>The Algerian CS2 community I run and build for.</strong></p>
@@ -51,7 +49,6 @@
 
 <br>
 
-<a id="projects"></a>
 <h2>A look at my public work</h2>
 
 <p>Two parts of the community server that you can read, build and try yourself.</p>
@@ -104,7 +101,6 @@
 
 <br>
 
-<a id="toolbox"></a>
 <h2>The tools behind the work</h2>
 
 <table>
@@ -136,7 +132,6 @@
 
 <br>
 
-<a id="contact"></a>
 <h2>Find me</h2>
 
 <p>For Ras El Hanout DZ, join the <a href="https://discord.gg/BFYt3YU8KG">Discord community</a>. You'll also find me on <a href="https://steamcommunity.com/id/MaximusRh/">Steam as MaximusRh</a>.</p>
